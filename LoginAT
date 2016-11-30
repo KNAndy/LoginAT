@@ -1,0 +1,4 @@
+#!/bin/sh
+cd ~/Desktop
+cd .LoginAT
+./homeGUI.py

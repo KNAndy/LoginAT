@@ -1,0 +1,16 @@
+#!/bin/sh
+
+sudo apt-get install python3-pip
+sudo pip3 install -U selenium
+sudo apt-get install python3-tk
+sudo pip3 install setuptools  
+sudo pip3 install python3-xlib
+sudo pip3 install pyautogui
+cp -R ./../LoginAT ~/Desktop/
+mv ~/Desktop/LoginAT ~/Desktop/.LoginAT
+rm ~/Desktop/.LoginAT/setup
+chmod +x ~/Desktop/.LoginAT/geckodriver 
+chmod +x ~/Desktop/.LoginAT/homeGUI.py
+mv ~/Desktop/.LoginAT/LoginAT ~/Desktop 
+mv ~/Desktop/.LoginAT/geckodriver ~/Desktop 
+chmod +x ~/Desktop/LoginAT

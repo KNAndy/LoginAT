@@ -1,0 +1,38 @@
+LoginAT
+Developed by Nihesh Anderson K
+@IIITD
+
+Compatible with Linux Mint and Ubuntu Distributions
+
+REQUIREMENTS
+Firefox (any version, to be upgraded to Firefox 49)
+Python 3.5.2
+
+INSTALLATION
+
+Linux Mint Users
+
+Get into the unpacked folder from the terminal
+Convert "setup" file into an executable - chmod +x setup
+Run the setup (shell script executable) from the terminal - ./setup
+Type in sudo password so that it can install the dependencies  
+Once done, the application executable will be created in the desktop
+Run it and explore!
+
+Ubuntu users (relatively tedious installation)
+
+Manually run all the below mentioned commands to install the dependencies
+Execute homeGUI.py, or run it as a python3 file 
+The application will get launched. Jump in and explore!
+
+DEPENDENCIES
+
+firefox49             - sudo apt-get install --upgrade firefox
+Selenium 3.0.0 module - sudo pip3 install -U selenium
+tkinter               - sudo apt-get install python3-tk
+pyautogui             - sudo pip3 install setuptools  
+			            sudo pip3 install python3-xlib
+			            sudo pip3 install pyautogui 
+
+
+
